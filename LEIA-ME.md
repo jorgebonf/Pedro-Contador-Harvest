@@ -26,9 +26,10 @@
 - Início: dinheiro em poder (adiantamentos − despesas), total gasto, prestado conta e a prestar.
 - Ao consumir 80% do adiantamento (ajustável), o Pedro avisa que já é possível solicitar outro.
 - Cada despesa puxa o código Harvest, o código da descrição do Argo, o Tipo Argo e valida os limites:
-  Perdiem R$ 19,00/noite · Refeição até R$ 45,00 (almoço só fim de semana/feriado) · Lavanderia até R$ 70,00 a cada 7 dias · Hospedagem balcão sem limite (informa nº de diárias).
+  Perdiem R$ 19,00/noite · Refeição até R$ 45,00 (almoço ou jantar) · Lavanderia até R$ 70,00 a cada 7 dias · Hospedagem balcão sem limite (informa nº de diárias).
 - Aba 📝 Argo: texto pronto da descrição de cada despesa (código + detalhamento, no padrão do glossário), com copiar e marcar como lançada. O modelo de cada categoria é editável no Glossário.
-- "Prestar conta em lote" marca várias despesas como prestadas, com o nº da prestação.
+- Cada despesa tem um tick ✓ de "Prestada no Argo". Em Despesas → ☑ Selecionar várias, marque várias de uma vez (com o nº da prestação).
+- 📁 Planilha e backup: template Excel, importar planilha, exportar Excel/CSV, backup JSON completo e restauração.
 - Planilha: em Despesas, “⬇ Template Excel” baixa o modelo (.xlsx com lista de categorias) e “⬆ Importar planilha” sobe despesas em lote (.xlsx ou .csv), com prévia, limites e descarte de duplicadas.
 - Início: gráficos de pizza por valor e por quantidade de lançamentos em cada categoria.
 - Glossário: consulta sempre; edição só pelo botão "Editar glossário".
