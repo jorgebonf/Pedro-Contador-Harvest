@@ -1,7 +1,7 @@
 /* Pedro · O Contador da Harvest — service worker
    Guarda apenas os arquivos do aplicativo; as despesas ficam no armazenamento local do navegador.
    Ao publicar uma nova versão do index.html, aumente o número em VERSION. */
-const VERSION='h1.5.0';
+const VERSION='h1.6.0';
 const CACHE='pedro-harvest-'+VERSION;
 const SHELL=['./','./index.html','./manifest.webmanifest','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png','./icons/icon-maskable-512.png','./icons/apple-touch-icon.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting()))});
